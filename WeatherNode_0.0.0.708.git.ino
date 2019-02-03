@@ -99,6 +99,11 @@ TODO
 V 0.0.0.708 (H is 8th letter in alphabet
 implement range sensor callibration
 maxPingDist implemented in .708
+
+V 0.0.0.708.git
+first stab at using Git
+
+Just added this
  **************************************************************************************/
 
 
@@ -134,10 +139,10 @@ extern "C" {
 }
 
 //***************** Define which station and platform we are compling for **************
-//#define Wemos 1
+#define Wemos 1
 //#define TBOffice  1
 //#define BethOffice 1
-#define Liv_Patio  1
+//#define Liv_Patio  1
 // #define Danube 1  // The two outside temp sensor module
 //***************** End define which station compiling for ****************
 
